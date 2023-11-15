@@ -1,0 +1,104 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: monospace;
+}
+
+.hero {
+  background-color: #1F2937;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  color: #f9faf8;
+  font-size: 24px;
+  padding: 12px;
+  margin-left: 16px;
+}
+
+.links {
+  display: flex;
+  gap: 24px;
+  margin: 32px;
+  padding-right: 4px;
+}
+
+.info-section {
+  background-color: white;
+  height: 300px;
+  padding-bottom: 52px;
+}
+
+.info-title {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+}
+
+.box {
+  border-color: #3882F6;
+  background-color: white;
+  border-radius: 8px;
+  height: 100px;
+  width: 100px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+}
+
+.sub-text {
+  max-width: 100px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.quote-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  height: 300px;
+}
+
+.quote {
+  font-size: 20px;
+  width: 600px;
+  color: #1f2937;
+}
+
+.signature {
+  padding-left: 20em;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  color: white;
+  height: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
