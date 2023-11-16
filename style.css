@@ -56,13 +56,19 @@ body {
 .image {
   display: flex;
   margin-top: 16px;
+  border-radius: 4px;
   justify-content: center;
   align-items: center;
   height: 183px;
   width: 325px;
   margin-right: 400px;
   text-align: center;
-  background-color: lightgrey;
+  background-color: white;
+}
+
+.bindy-img {
+  width: 325px;
+  height: auto;
 }
 
 .main-text {
